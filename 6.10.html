@@ -1,0 +1,33 @@
+<!--
+Ryan Huffman
+CS81, Section 1231
+Summer 2016
+Assignment 9, Exercise 6.10
+7/18/16
+-->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Account Sign-Up</title>
+	<style>
+		#warning{
+			color: red;
+		}
+	</style>
+  </head>
+  <body>
+    <h1>Create Your Account</h1>
+    <p>
+      <label>Real Name: <input type="text" id="realName" /></label><br>
+	  <label>Email Address: <input type="text" id="emailAddress" /></label><br>
+	  <label>*Login Name: <input type="text" id="loginName" /></label><br>
+	  <label>*Password: <input type="password" id="password1" /></label><br>
+	  <label>*Retype your password: <input type="password" id="password2" /></label><br><br>
+    </p>
+	<p id="warning">Please enter all required fields (*)</p>
+    <button id = "submit" disabled>Submit</button>
+    <script src="6.10.js"></script>
+  </body>
+</html>

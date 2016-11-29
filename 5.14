@@ -1,0 +1,22 @@
+Refactoring is, in a very basic sense, cleaning up or restructuring code without modifying the code's function. As code is extended or
+changed, if it is not refactored it tends to “rot”. Though it is unintentional, the introduction of “rot” such as duplicate or confusing
+code and extensive methods and classes is nearly impossible to avoid. This problem is exacerbated if the original developers of the
+code, i.e. the people who know the code intuitively, are no longer part of the team or company, and new developers unfamiliar with the
+code are working with and extending it. The code needs to be looked at and refactored to make it easier to read, maintain, and extend.
+
+Though refactoring takes a time investment up front, it pays off in the long run by improving a team’s ability to extend the code. A
+beneficial effect of refactoring is possibly eliminating an undiscovered bug or security flaw, simply by cleaning up the code. However,
+it must be done correctly. When refactoring, the code’s function cannot be modified, and the refactored code must be tested extensively
+to ensure no new bugs have been introduced. Changes should be done one at a time, so any bugs introduced can be traced back, reproduced,
+and fixed. If not done correctly, the code may no longer perform its function or it may contain bugs or security flaws.
+
+Refactoring includes changes such as renaming variables, methods, functions, or classes to better reflect what it represents, moving a
+class to a different package, breaking a lengthy method down into several methods for readability, and many more. Ideally code should
+be refactored on a regular basis, but many developers do not do this for a variety of reasons, such as time constraints or unwillingness
+to modify code that works out of fear of introducing new bugs. Automated refactoring tools exist to assist developers in this (WebStorm
+included!).
+
+Sources:
+https://www.versionone.com/agile-101/agile-software-programming-best-practices/refactoring/
+https://en.wikipedia.org/wiki/Code_refactoring
+http://www.methodsandtools.com/archive/archive.php?id=4

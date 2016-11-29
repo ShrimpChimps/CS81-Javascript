@@ -1,0 +1,15 @@
+Ryan Huffman
+CS81, Section 1231
+Summer 2016
+Assignment 7, Exercise 5.19
+7/12/16
+
+alert("Hello");
+var alert = 2;
+alert("World");
+
+The first and third lines of code are statements that alert the string "Hello" and "World". The second statement assigns the variable alert to 2.
+However, when the script is run, no alerts occur. This occurs because the second line is overwriting the alert function (since a function is an object)
+and replacing it with the number 2. This explains why the alert in the third line of code is not called, because the alert function has been overwritten.
+The reason the first alert is not called is that alert is a local variable in the script, thus the variable is initialized immediately upon execution of the
+script and assigned with the value of undefined. Again, the alert function is overwritten, thus the first alert does not run either.

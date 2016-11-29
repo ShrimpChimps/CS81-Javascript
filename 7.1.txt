@@ -1,0 +1,45 @@
+Ryan Huffman
+CS81, Section 1231
+Summer 2016
+Assignment 10, Exercise 7.1
+7/18/16
+
+Country:
+
+name
+capital
+continent
+size
+population
+officialLanguages (array)
+
+
+Restaurant:
+name
+address
+menu (array)
+owner
+employees (array)
+
+Music album:
+title
+artists (array)
+year
+tracks (array)
+runtime
+
+Basketball team:
+name
+city
+wins
+losses
+players (array)
+coach
+
+Movie:
+title
+year
+genre
+budget
+director
+actors (array)

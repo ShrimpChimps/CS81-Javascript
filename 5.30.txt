@@ -1,0 +1,23 @@
+Ryan Huffman
+CS81, Section 1231
+Summer 2016
+Assignment 7, Exercise 5.30
+7/12/16
+
+(a)
+
+The expression new Date() produces a Date object that stores the current date and time.
+Using an alert to display the date object gives, for example:
+"Tue Jul 12 2016 23:07:11 GMT-0700 (Pacific Daylight Time)"
+
+(b)
+A date object for 1/20/2009 at midnight. Using an alert displays:
+"Tue Jan 20 2009 00:00:00 GMT-0800 (Pacific Standard Time)"
+
+The arguments passed in to the function, in order, are the year, month (counted from 0-11, so January
+is 0 and December is 11), and day.
+
+(c)
+A date object is calculated as the number of milliseconds from 1/1/1970 at midnight. The function
+Date.valueOf() returns the number stored in the Date object. Therefore, the expression
+d1. valueOf() - d2. valueOf() returns the number of milliseconds between the two date values.

@@ -1,0 +1,23 @@
+Ryan Huffman
+CS81, Section 1231
+Summer 2016
+Assignment 7, Exercise 5.18
+7/12/16
+
+var shout = function(){
+   var message = "HEY YOU";
+   alert(message);
+};
+shout();
+alert(message);
+
+
+In the first four lines, the variable shout is initialized as a function. The first line of the function declares
+a local variable message with the value "HEY YOU". The second line of the function calls the alert function, passing
+the variable message.
+
+When the code is run, the shout() function is called (line 5). The shout() function runs as described above, properly
+alerting "HEY YOU". Then line 6 is run, which throws a ReferenceError: The variable message is not defined. This occurs
+because the message variable is declared inside the function shout(), making it a local variable. Since it only has a
+local scope, it is only defined in that function. Therefore, when line 6 is called, which is outside the function, the
+variable is considered undeclared.

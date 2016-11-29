@@ -1,0 +1,41 @@
+<!--
+Ryan Huffman
+CS81, Section 1231
+Summer 2016
+Assignment 8, Exercise 6.3
+7/13/16
+-->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>JavaScript Temperature Converter</title>
+  </head>
+  <body>
+    <h1>Temperature Conversion</h1>
+    <p>
+      <input type="text" id="temperature" />
+      <button id = "f_to_c">F to C</button>
+	  <button id = "c_to_f">C to F</button>
+    </p>
+    <p id="result"></p>
+    <script src="6.3.js"></script>
+  </body>
+</html>
+
+<!--
+(a)
+
+Besides the <button> HTML tags, text is added in between the button tags. This text is what is displayed on
+the button when the page is loaded. On the input tag, this was the purpose of the value attribute.
+
+(b)
+
+The main difference is that the button tags allow you to add HTML between them, while the input tag only allows
+you to add text to the value attribute. The button tags allow for more varied ways to display not only text on the
+button but also images and any other HTML elements on it. However, this feature is not supported in IE6 and earlier,
+so the button may not be useable for those using an older browser.
+
+Source: http://stackoverflow.com/questions/25436145/input-type-button-vs-button
+-->
